@@ -12,7 +12,9 @@ body {
   color: black;
   font-family: 'Great Vibes', cursive;
 }
-
+.container {
+  max-width: 100%;
+}
 #quotebox {
   background-color: white;
   border-radius: 20px;
@@ -42,7 +44,7 @@ body {
     /* Start the shake animation and make the animation last for 2 seconds */
     animation: shake 2s;
     /* When the animation is finished, start again */
-    animation-iteration-count: infinite; 
+    animation-iteration-count: infinite;
 }
 
 @keyframes shake {
