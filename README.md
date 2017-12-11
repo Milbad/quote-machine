@@ -1,4 +1,4 @@
-# Quote Machine#
+# Quote Machine #
 Free-code camp project for the Front End Certification
 The user can click a button to show a new random quote.
 He can press a button to tweet out a quote.
