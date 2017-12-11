@@ -39,8 +39,8 @@ body {
   cursor: pointer;
 }
 #new-quote:hover {
-    /* Start the shake animation and make the animation last for 0.5 seconds */
-    animation: shake 0.5s;
+    /* Start the shake animation and make the animation last for 2 seconds */
+    animation: shake 2s;
     /* When the animation is finished, start again */
     animation-iteration-count: infinite; 
 }
