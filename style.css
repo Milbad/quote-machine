@@ -15,7 +15,8 @@ body {
 #quotebox {
   background-color: white;
   border-radius: 20px;
-  max-width: 100%;
+  max-width: 80%;
+  border: lightgrey 1px solid;
   margin-top: 100px;
   padding-top: 20px;
   padding-bottom: 20px;
