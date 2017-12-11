@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Random Quote Machine</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Poiret+One" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>Random Quote Machine</header>
+  <div id="quotebox" class="container-fluid align-middle">
+    <div class="container">
+      <blockquote>
+        <p id="the-quote"></p>
+        <footer id="the-source">- </footer>
+      </blockquote>
+    </div>
+    <br>
+    <a href="#" title="Share that quote on Twitter!" class="fa fa-twitter-square" aria-hidden="true"></a>
+    <button id="new-quote" class="btn">New quote</button>
+  </div>
+  <br>
+  <p class="text-center"> This page uses <a href="https://quotesondesign.com/api-v4-0/">The QUOTES on DESIGN API</a>
+  </p>
+  <script src="app.js"></script>
+</body>
