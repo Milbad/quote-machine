@@ -15,7 +15,7 @@ $(document).ready(function() {
     var newBrightness = Math.random();
     var newColor = Math.floor(Math.random() * 16777215).toString(16);
     //newColor = "#" + ("000000" + newColor).slice(-6);
-    $("#quotebox").css('filter:brightness', '(' + newBrightness + ')');
+    $("#quotebox").css('filter', 'brightness(' + newBrightness + ')');
     //$("#quotebox").css("filter:brightness", newBrightness);
     //("body").css("background-color", newColor);
     //$(".fa-twitter-square").css("background-color", newColor);
