@@ -12,7 +12,6 @@ $(document).ready(function() {
       $("#the-source").append(data[0].title);
     });
     //update the background color
-    filter: brightness(70%);
     var newBrightness = Math.random();
     var newColor = Math.floor(Math.random() * 16777215).toString(16);
     //newColor = "#" + ("000000" + newColor).slice(-6);
