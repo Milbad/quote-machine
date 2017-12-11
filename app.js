@@ -12,9 +12,12 @@ $(document).ready(function() {
       $("#the-source").append(data[0].title);
     });
     //update the background color
-    //var newColor = Math.floor(Math.random() * 16777215).toString(16);
+    filter: brightness(70%);
+    var newBrightness = Math.random();
+    var newColor = Math.floor(Math.random() * 16777215).toString(16);
     //newColor = "#" + ("000000" + newColor).slice(-6);
-    //$("#new-quote").css("background-color", newColor);
+    $("#quotebox").setAttribute('style', 'filter:brightness(' + newBrightness + '); -webkit-filter:brightness(' + newBrightness + '); -moz-filter:brightness(' + newBrightness + ')');
+    //$("#quotebox").css("filter:brightness", newBrightness);
     //("body").css("background-color", newColor);
     //$(".fa-twitter-square").css("background-color", newColor);
   });
