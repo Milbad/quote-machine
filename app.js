@@ -12,7 +12,7 @@ $(document).ready(function() {
       $("#the-source").append(data[0].title);
     });
     //update the background color
-    var newBrightness = Math.random() * (0.7 - 0);
+    var newBrightness = Math.random() * (0.7 - 0.35) - 0.35;
     $("#quotebox").css('filter', 'brightness(' + newBrightness + ')');
   });
   //Click on the twitter icon open the twitter page
