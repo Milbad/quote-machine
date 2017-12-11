@@ -15,8 +15,7 @@ body {
 
 #quotebox {
   background-color: white;
-  border-radius: 20px;
-  font-family: 'Great Vibes', cursive;
+  border-radius: 90px;
   max-width: 80%;
   border: lightgrey 1px solid;
   margin-top: 100px;
@@ -25,7 +24,8 @@ body {
 }
 
 #the-quote {
-  font-size: 20px;
+  font-size: 30px;
+  font-family: 'Great Vibes', cursive;
 }
 
 #the-source {
