@@ -43,6 +43,12 @@ body {
   color: black !important;
   padding: 8px !important;
   margin-left: 10px !important;
+  -webkit-transition: font-size 2s; /* Safari */
+  transition: font-size 2s;
+}
+
+.fa-twitter-square:hover {
+    font-size: 35px !important;
 }
 
 a {
