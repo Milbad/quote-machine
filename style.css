@@ -9,12 +9,13 @@ header {
 
 body {
   background-color: lightgrey;
-  font-family: 'Lobster', cursive;
+  font-family: 'Great Vibes', cursive;
 }
 
 #quotebox {
   background-color: white;
-  width: 500px;
+  border-radius: 20px;
+  max-width: 100%;
   margin-top: 100px;
   padding-top: 20px;
   padding-bottom: 20px;
