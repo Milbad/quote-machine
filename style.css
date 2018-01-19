@@ -74,7 +74,7 @@ body {
     font-size: 30px !important;
 }
 
-a {
+a.fa-twitter-square {
   color: black !important;
   text-decoration: none !important;
 }
