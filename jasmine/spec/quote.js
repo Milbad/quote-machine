@@ -25,15 +25,15 @@ $(function() {
     });
     /* A new test suite named "New Quote" */
     describe('New Quote Button', function() {
-        var oldQuote=  $('#the-quote').html();
-        console.log(oldQuote);
+        var oldQuote=  $('.container #the-quote');
+        console.log(oldQuote.html());
         var newQuote;
         /* A test that ensures when the user click on the new quote Button
          * a new quote  appears within the #the-quote container.
          */
         it('displays a new quote', function() {
             $('#new-quote').trigger('click');
-            newQuote = $('#the-quote').html();
+            newQuote = $('.container #the-quote').html();
             console.log(newQuote);
             expect(oldQuote).not.toEqual(newQuote);
         });
