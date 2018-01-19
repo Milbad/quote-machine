@@ -26,7 +26,6 @@ $(function() {
     /* A new test suite named "New Quote" */
     describe('New Quote Button', function() {
         var oldQuote=  $('.container #the-quote');
-        console.log(oldQuote.html());
         var newQuote;
         /* A test that ensures when the user click on the new quote Button
          * a new quote  appears within the #the-quote container.
@@ -34,7 +33,6 @@ $(function() {
         it('displays a new quote', function() {
             $('#new-quote').trigger('click');
             newQuote = $('.container #the-quote').html();
-            console.log(newQuote);
             expect(oldQuote).not.toEqual(newQuote);
         });
     });
